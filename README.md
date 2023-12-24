@@ -32,18 +32,26 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 * Mechanical fault diagnosis based on deep neural networks.
 * Interpretable AI.
 
+<span style="font-size: 32px; margin: 21px 0; display: block;"
+  >这是顶级标题吗？</span>
+<p>
+  这杯液体<strong>毒性很大</strong>——如果饮用了它，你<strong
+    >可能<em>会死</em></strong
+  >。
+</p>
+
+
 ## Publication
  <!-- | Introduction -->
-1. **Q. Chen** et al., “TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis,” Mechanical Systems and Signal Processing, vol. 207, p. 110952, Jan. 2024, doi: [10.1016/j.ymssp.2023.110952](https://doi.org/10.1016/j.ymssp.2023.110952). **(with [open code](https://github.com/ChenQian0618/TFN) on Github)** [[中文介绍](./publications/2024-MSSP-TFN-chinese.md)]
+1. **Q. Chen** et al., “TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis,” <i><font color="red">Mechanical Systems and Signal Processing</font></i>, vol. 207, p. 110952, Jan. 2024, doi: [10.1016/j.ymssp.2023.110952](https://doi.org/10.1016/j.ymssp.2023.110952).  [[Code](https://github.com/ChenQian0618/TFN) | [中文介绍](./publications/2024-MSSP-TFN-chinese.md)]  <strong><font color="red">(IF=8.4,一区TOP)</font></strong>
 1. X. Dong, **Q. Chen**, et al., "Data-driven-based automobile seat slide rail peel strength prediction method", [CN116822292A](https://patents.google.com/patent/CN116822292A/en?oq=CN116822292A), Sep. 29, 2023.
-1. **陈钱**, 等. 一种面向机械设备故障诊断的可解释卷积神经网络[J]. 机械工程学报, 2023. [[中文介绍](./publications/2024-机工报-ChirpletNN-chinese.md)] <br> **Q. Chen**, et al. An interpretable convolutional neural network for mechanical equipment fault diagnosis[J]. Journal of Mechanical Engineering, 2023. **(Under proof)** 
+1. **陈钱**, 等. 一种面向机械设备故障诊断的可解释卷积神经网络[J]. <i><font color="red">机械工程学报</font></i>, 2023. [[中文介绍](./publications/2024-机工报-ChirpletNN-chinese.md)] <br> **Q. Chen**, et al. An interpretable convolutional neural network for mechanical equipment fault diagnosis[J]. <i><font color="red">Journal of Mechanical Engineering</font></i>, 2023.  <strong><font color="red">(Under proof)</font></strong>
 1. **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. 机械工程学报, 2024. <br>
 **Q. Chen**, et al. Peeling force prediction of automobile seat slide rail based on iterative local weighted linear regression[J]. Journal of Mechanical Engineering, 2024. **(Under review-round-2)**
 
 ## Project
 
-* [(2021.09-2022.09) Development of a predictive system for studying the robustness of car seat slide rail shapes.](./projects/202109_SlidePeelingForcePrediction.md)
-* [(2021.08-2022.08) Exploring the interpretability of convolutional neural networks combined with linear frequency modulation signal processing.](./projects/202108_TFN.md)
-* [(2021.06-2021.09) Research on intelligent fault diagnosis methods for space bearings.](./projects/202106_SpaceBearingDiagnosis.md)
-* [(2020.06-2021.06) Research on load measurement and identification methods for piping systems.](./projects/202006_PipeLoadIdentification.md)
+* [(2021.09-2022.09)](./projects/202109_SlidePeelingForcePrediction.md) Development of a predictive system for studying the robustness of car seat slide rail shapes.
+* [(2021.08-2022.08)](./projects/202108_TFN.md) Exploring the interpretability of convolutional neural networks combined with time-frequency transform.
+* [(2020.06-2021.06)](./projects/202006_PipeLoadIdentification.md) Load identification methods for piping systems.
 
