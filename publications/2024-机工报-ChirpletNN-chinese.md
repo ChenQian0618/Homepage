@@ -19,20 +19,32 @@
 
 
 ## 实验方法
+<div align='center'>
+<img src="images/CJME-框架.jpg" width=1000 alt="framwork"/><br/>
+Chirplet-CNN的完整诊断框架
+</div>
 
 以私有的行星齿轮箱数据集和开源的CWRU轴承数据集为基础，对所提的Chirplet卷积层开展实验验证。实验结果表明，Chirplet-CNN和当前的先进方法SincNet[8]、Morlet-WKN[2]具有相近的诊断性能，其诊断表现都优于基准CNN和普通卷积层作为预处理层的CNN，有效地说明了所提Chirplet卷积层在故障诊断准确率方面的有效性。
 
-![img](images/clip_image002.jpg)
+<div align='center'>
+<img src="images/CJME-CWRU.jpg" width=500 alt="framwork"/><br/>
+Chirplet-CNN和同类方法在CWRU轴承数据集的诊断结果
+</div>
 
-![img](images/clip_image002-1703306597301-2.jpg)
 
 更进一步地，对Chirplet-CNN和当前先进方法的模型卷积层幅频响应进行分析可知，Chirplet-CNN以其滤波器频率和带宽均可控的特点，所获得的幅频响应能够有效地反映数据集的信息频带，在可解释性方面显著优于当前的先进方法。实验表明，将时频变换方法融入卷积神经网络的操作，在提高模型诊断能力的同时，也为不可解释的神经网络引入了物理可解释性。通过分析网络学习到的参数，获取背后的物理含义，实现对网络的解释，是一条可行的思路。
 
-![img](images/clip_image002-1703306619597-4.jpg)
+<div align='center'>
+<img src="images/CJME-可解释性结果.jpg" width=500 alt="framwork"/><br/>
+Chirplet-CNN在CWRU轴承数据集的可解释性结果
+</div>
 
 最后，对所提Chirplet-CNN开展可视化分析和通用性分析。可视化分析结果表明，Chirplet-CNN具有良好的表征能力，所提取的特征同类聚集成簇，异类相互分离，和当前先进方法具有一致表现。
 
-![img](images/clip_image002-1703306633754-6.jpg)
+<div align='center'>
+<img src="images/CJME-可视化结果.jpg" width=500 alt="framwork"/><br/>
+Chirplet-CNN和同类方法在CWRU数据集的t-SNE结果
+</div>
 
 通用性分析结果表明，Chirplet卷积层是一个通用的方法，在不同深度的卷积网络模型上都能有效提取故障时频特征，从而提高基准模型的诊断表现并有效地解释卷积网络模型的关注频带。
 
@@ -55,6 +67,10 @@
 |          | 128                     | **98.79**     | 0.405          |
 
 ![img](images/clip_image002-1703306656602-8.jpg)
+<div align='center'>
+<img src="images/CJME-通用性.jpg" width=500 alt="framwork"/><br/>
+不同模型为基准的Chirplet-CNN在CWRU数据集的可解释性结果
+</div>
 
 ## 结论
 
