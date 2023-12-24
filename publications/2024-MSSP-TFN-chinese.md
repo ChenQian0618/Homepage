@@ -8,13 +8,15 @@
 
 ## 时频变换和神经网络卷积层具有共同性
 
-基于内积运算的时频变换方法可表示为
+<div align='center'>
+<img src="images/image-20231223120829655.png" width=500 alt="framwork"/><br/>
+基于内积运算的时频变换方法
+</div>
 
-![image-20231223120829655](./images/image-20231223120829655.png)
-
-1维卷积层可表示为
-
-![image-20231223120909359](./images/image-20231223120909359.png)
+<div align='center'>
+<img src="images/image-20231223120909359.png" width=500 alt="framwork"/><br/>
+1维卷积层的运算过程
+</div>
 
 ## TFN方法
 
@@ -26,8 +28,11 @@
 
 为模拟内积为基础的时频变换，TFconv层中每个卷积核都包含一个实部卷积核和一个虚部卷积核两部分，它们沿着长度方向对输入样本进行卷积，分别得到实部特征和虚部特征，然后对实部特征和虚部特征进行求模运算得到特征图作为TFconv层的输出，整个过程中各个通道之间相互独立。
 
-TFconv层的第$k$个通道的输出可表示为
-![image-20231223121218644](./images/image-20231223121218644.png)
+
+<div align='center'>
+<img src="images/image-20231223121218644.png" width=500 alt="framwork"/><br/>
+所提出TFconv层的运算过程
+</div>
 
 总而言之，与传统的卷积层相比，提出的TFconv层具有三个特点：
 
@@ -38,44 +43,70 @@ TFconv层的第$k$个通道的输出可表示为
 ### TFconv层的核函数
 
 STTF、Chirplet和Morlet三种核函数被考虑到我们的框架中，三种核函数具备不同的滤波性质。
-
-![4-FrequencyResponse](./images/4-FrequencyResponse.jpg)
+<div align='center'>
+<img src="images/4-FrequencyResponse.jpg" width=800 alt="framwork"/><br/>
+三种核函数的时域图和频域图
+</div>
 
 ### TFconv层的可解释性
 
 卷积层和信号处理的FIR滤波器是共同的，因此可以通过分析卷积层的幅频响应揭示神经网络对不同频段的关注程度。
-
-![5-compare](./images/5-compare.jpg)
+<div align='center'>
+<img src="images/5-compare.jpg" width=800 alt="framwork"/><br/>
+幅频响应：(a) 随机卷积核的通道级幅频响应C-FR; (b) STTF卷积核的通道级幅频响应C-FR；(c) Morlet卷积核的通道级幅频响应C-FR；(d) 总体幅频响应O-FR.
+</div>
 
 ### TFN应用于故障诊断的完整框架
 
-![6-diagnosis framwork](./images/6-diagnosis%20framwork.jpg)
+<div align='center'>
+<img src="images/6-diagnosis%20framwork.jpg" width=800 alt="framwork"/><br/>
+TFN用于故障诊断的完整框架
+</div>
 
 ## 实验
 
 ### 准确率方面
 
-![8-CWRU Acc](./images/8-CWRU%20Acc.jpg)
+<div align='center'>
+<img src="images/8-CWRU%20Acc.jpg" width=800 alt="framwork"/><br/>
+TFN和同类方法的准确率表现
+</div>
 
 ### 可解释性方面
-
-![14-Interpretability-CWRU](./images/14-Interpretability-CWRU.jpg)
+<div align='center'>
+<img src="images/14-Interpretability-CWRU.jpg" width=800 alt="framwork"/><br/>
+TFN和同类方法的可解释性表现-幅频响应
+</div>
 
 ### 少样本学习方面
 
-![15-fewshot](./images/15-fewshot.jpg)
+<div align='center'>
+<img src="images/15-fewshot.jpg" width=800 alt="framwork"/><br/>
+TFN和同类方法在少样本学习场景下的表现
+</div>
+
 
 ### 收敛速度方面
 
-![15-training process](./images/15-training%20process.jpg)
+<div align='center'>
+<img src="./images/15-training%20process.jpg" width=800 alt="framwork"/><br/>
+TFN和同类方法在收敛速度上的表现
+</div>
 
 ### 训练时间方面
 
-![15-Training time](./images/15-Training%20time.jpg)
+<div align='center'>
+<img src="./images/15-Training%20time.jpg" width=800 alt="framwork"/><br/>
+TFN和同类方法在训练时间上的表现
+</div>
+
 
 ### 和同类方法的区别方面
 
-![15-output](./images/15-output.jpg)
+<div align='center'>
+<img src="./images/15-output.jpg" width=800 alt="framwork"/><br/>
+TFN和同类方法的区别：所提TFN是可学习的时频变换，得到的是时频能量分布；同类方法是多通道的带通滤波器，得到的是不同频段的滤波子信号。
+</div>
 
 ## 总结
 
