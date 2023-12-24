@@ -10,11 +10,11 @@
 
 基于内积运算的时频变换方法可表示为
 
-![image-20231223120829655](.images/image-20231223120829655.png)
+![image-20231223120829655](./images/image-20231223120829655.png)
 
 1维卷积层可表示为
 
-![image-20231223120909359](.images/image-20231223120909359.png)
+![image-20231223120909359](./images/image-20231223120909359.png)
 
 ## TFN方法
 
@@ -27,7 +27,7 @@
 为模拟内积为基础的时频变换，TFconv层中每个卷积核都包含一个实部卷积核和一个虚部卷积核两部分，它们沿着长度方向对输入样本进行卷积，分别得到实部特征和虚部特征，然后对实部特征和虚部特征进行求模运算得到特征图作为TFconv层的输出，整个过程中各个通道之间相互独立。
 
 TFconv层的第$k$个通道的输出可表示为
-![image-20231223121218644](.images/image-20231223121218644.png)
+![image-20231223121218644](./images/image-20231223121218644.png)
 
 总而言之，与传统的卷积层相比，提出的TFconv层具有三个特点：
 
@@ -39,43 +39,43 @@ TFconv层的第$k$个通道的输出可表示为
 
 STTF、Chirplet和Morlet三种核函数被考虑到我们的框架中，三种核函数具备不同的滤波性质。
 
-![4-FrequencyResponse](.images/4-FrequencyResponse.jpg)
+![4-FrequencyResponse](./images/4-FrequencyResponse.jpg)
 
 ### TFconv层的可解释性
 
 卷积层和信号处理的FIR滤波器是共同的，因此可以通过分析卷积层的幅频响应揭示神经网络对不同频段的关注程度。
 
-![5-compare](.images/5-compare.jpg)
+![5-compare](./images/5-compare.jpg)
 
 ### TFN应用于故障诊断的完整框架
 
-![6-diagnosis framwork](.images/6-diagnosis%20framwork.jpg)
+![6-diagnosis framwork](./images/6-diagnosis%20framwork.jpg)
 
 ## 实验
 
 ### 准确率方面
 
-![8-CWRU Acc](.images/8-CWRU%20Acc.jpg)
+![8-CWRU Acc](./images/8-CWRU%20Acc.jpg)
 
 ### 可解释性方面
 
-![14-Interpretability-CWRU](.images/14-Interpretability-CWRU.jpg)
+![14-Interpretability-CWRU](./images/14-Interpretability-CWRU.jpg)
 
 ### 少样本学习方面
 
-![15-fewshot](.images/15-fewshot.jpg)
+![15-fewshot](./images/15-fewshot.jpg)
 
 ### 收敛速度方面
 
-![15-training process](.images/15-training%20process.jpg)
+![15-training process](./images/15-training%20process.jpg)
 
 ### 训练时间方面
 
-![15-Training time](.images/15-Training%20time.jpg)
+![15-Training time](./images/15-Training%20time.jpg)
 
 ### 和同类方法的区别方面
 
-![15-output](.images/15-output.jpg)
+![15-output](./images/15-output.jpg)
 
 ## 总结
 
