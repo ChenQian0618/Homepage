@@ -25,21 +25,10 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 
 * <img src="./images/HIT.png" width=50 alt="profile" align='middle'/> 2016 - 2020,  received Bachelor degree of Mechatronic Engineering at Harbin Institute of Technology, Harbin, China.
 
-
-
 **interests:**
 
 * Mechanical fault diagnosis based on deep neural networks.
 * Interpretable AI.
-
-<span style="font-size: 32px; margin: 21px 0; display: block;"
-  >这是顶级标题吗？</span>
-<p>
-  这杯液体<strong>毒性很大</strong>——如果饮用了它，你<strong
-    >可能<em>会死</em></strong
-  >。
-</p>
-
 
 ## Publication
  <!-- | Introduction -->
