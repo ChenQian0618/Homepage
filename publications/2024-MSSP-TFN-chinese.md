@@ -1,7 +1,7 @@
 # TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis
 
 
-> Q. Chen et al., “TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis,” Mechanical Systems and Signal Processing, vol. 207, p. 110952, Jan. 2024, doi: 10.1016/j.ymssp.2023.110952.
+> Q. Chen et al., “TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis,” Mechanical Systems and Signal Processing, vol. 207, p. 110952, Jan. 2024, [doi: 10.1016/j.ymssp.2023.110952](https://www.sciencedirect.com/science/article/pii/S0888327023008609).
 
 
 卷积神经网络（CNN）以其强大的特征提取和分类能力，被广泛应用于机械系统故障诊断之中。但CNN是一个典型的“黑箱模型”，不仅降低了智能诊断结果的可信性，还限制了在高可靠性要求故障诊断场景中的应用。为了解决这类问题，本文将具有明显物理意义的时频变换方法和传统卷积层相结合，提出具有优异可解释性的时频变换卷积层（TFconv）和时频变换网络（TFN），进而提出将TFN用于故障诊断的完整流程。一系列实验表明，TFN拥有良好的故障诊断能力，且能通过频谱分析解释出模型提取类别特征和做出判断的依据来源。此外，提出的TFconv具有良好的通用性，对于不同深度的CNN模型均适用。

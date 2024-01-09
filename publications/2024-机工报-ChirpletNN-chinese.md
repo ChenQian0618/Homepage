@@ -87,18 +87,11 @@ Chirplet-CNN和同类方法在CWRU数据集的t-SNE结果
 ## 参考文献
 
 1. ZHANG Y, TINO P, LEONARDIS A, et al. A survey on neural network interpretability[J]. IEEE Transactions on Emerging Topics in Computational Intelligence, 2021, 5(5): 726-742.
-
-2. LI T, ZHAO Z, SUN C, et al. WaveletKernelNet: an interpretable deep neural network for industrial intelligent diagnosis[J]. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2022, 52(4): 2302-2312.
-
-3. SHANG Z, ZHAO Z, YAN R. Denoising fault-aware wavelet network: a signal processing informed neural network for fault diagnosis[J]. Chinese Journal of Mechanical Engineering, 2023, 36: 9.
-
-4. ZHAO B, CHENG C, TU G, et al. An interpretable denoising layer for neural networks based on reproducing kernel hilbert space and its application in machine fault diagnosis[J]. Chinese Journal of Mechanical Engineering, 2021, 34: 44.
-
-5. MICHAU G, FRUSQUE G, FINK O. Fully learnable deep wavelet transform for unsupervised monitoring of high-frequency time series[J]. Proceedings of the National Academy of Sciences, 2022, 119(8): e2106598119.
-
-6. GANGULY B, CHAUDHURI S, BISWAS S, et al. Wavelet kernel-based convolutional neural network for localization of partial discharge sources within a power apparatus[J]. IEEE Transactions on Industrial Informatics, 2021, 17(3): 1831-1841.
-
-7. LIU C, QIN C, SHI X, et al. TScatNet: an interpretable cross-domain intelligent diagnosis model with antinoise and few-shot learning capability[J]. IEEE Transactions on Instrumentation and Measurement, 2021, 70: 3506110.
-
-8. RAVANELLI M, BENGIO Y. Speaker recognition from raw waveform with SincNet[C]. 2018 IEEE Spoken Language Technology Workshop (SLT). Athens, Greece: IEEE, 2018: 1021-1028.
+1. LI T, ZHAO Z, SUN C, et al. WaveletKernelNet: an interpretable deep neural network for industrial intelligent diagnosis[J]. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2022, 52(4): 2302-2312.
+1. SHANG Z, ZHAO Z, YAN R. Denoising fault-aware wavelet network: a signal processing informed neural network for fault diagnosis[J]. Chinese Journal of Mechanical Engineering, 2023, 36: 9.
+1. ZHAO B, CHENG C, TU G, et al. An interpretable denoising layer for neural networks based on reproducing kernel hilbert space and its application in machine fault diagnosis[J]. Chinese Journal of Mechanical Engineering, 2021, 34: 44.
+1. MICHAU G, FRUSQUE G, FINK O. Fully learnable deep wavelet transform for unsupervised monitoring of high-frequency time series[J]. Proceedings of the National Academy of Sciences, 2022, 119(8): e2106598119.
+1. GANGULY B, CHAUDHURI S, BISWAS S, et al. Wavelet kernel-based convolutional neural network for localization of partial discharge sources within a power apparatus[J]. IEEE Transactions on Industrial Informatics, 2021, 17(3): 1831-1841.
+1. LIU C, QIN C, SHI X, et al. TScatNet: an interpretable cross-domain intelligent diagnosis model with antinoise and few-shot learning capability[J]. IEEE Transactions on Instrumentation and Measurement, 2021, 70: 3506110.
+1. RAVANELLI M, BENGIO Y. Speaker recognition from raw waveform with SincNet[C]. 2018 IEEE Spoken Language Technology Workshop (SLT). Athens, Greece: IEEE, 2018: 1021-1028.
 
