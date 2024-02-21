@@ -34,11 +34,11 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 
 **Paper:**
 
-1. X. Dong<sup>\*</sup>, **Q. Chen**<sup>\*</sup>, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” <font color="brown">*Structural and Multidisciplinary Optimization*</font>, 2024. <font color="red">(Under review)</font>
-2. **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. <font color="brown">*机械工程学报*</font>, 2024. <br>
-**Q. Chen**, et al. Peeling force prediction of automobile seat slide rail based on iterative local weighted linear regression[J]. <font color="brown">*Journal of Mechanical Engineering*</font>, 2024. <font color="red">(Under review-R2)</font>
-1. **陈钱**, 等. 一种面向机械设备故障诊断的可解释卷积神经网络[J]. <font color="brown">*机械工程学报*</font>, 2023. [[中文介绍](./publications/2024-机工报-ChirpletNN-chinese.md)] <br> **Q. Chen**, et al. An interpretable convolutional neural network for mechanical equipment fault diagnosis[J]. <font color="brown">*Journal of Mechanical Engineering*</font>, 2023. <font color="red">(Under proof)</font>
-2. **Q. Chen**, et al., “TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis,” <font color="brown">*Mechanical Systems and Signal Processing*</font>, vol. 207, p. 110952, Jan. 2024, doi: [10.1016/j.ymssp.2023.110952](https://doi.org/10.1016/j.ymssp.2023.110952).  [[Code](https://github.com/ChenQian0618/TFN) \| [中文介绍](./publications/2024-MSSP-TFN-chinese.md)] <font color="red">(IF=8.4, TOP)</font>
+1. X. Dong<sup>\*</sup>, **Q. Chen**<sup>\*</sup>, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” *<font color="brown">Structural and Multidisciplinary Optimization</font>*, 2024. <font color="red">(Under review)</font>
+2. **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. *<font color="brown">机械工程学报</font>*, 2024. <br>
+**Q. Chen**, et al. Peeling force prediction of automobile seat slide rail based on iterative local weighted linear regression[J]. *<font color="brown">Journal of Mechanical Engineering</font>*, 2024. <font color="red">(Under review-R2)</font>
+1. **陈钱**, 等. 一种面向机械设备故障诊断的可解释卷积神经网络[J]. *<font color="brown">机械工程学报</font>*, 2023. [[中文介绍](./publications/2024-机工报-ChirpletNN-chinese.md)] <br> **Q. Chen**, et al. An interpretable convolutional neural network for mechanical equipment fault diagnosis[J]. *<font color="brown">Journal of Mechanical Engineering</font>*, 2023. <font color="red">(Under proof)</font>
+2. **Q. Chen**, et al., “TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis,” *<font color="brown">Mechanical Systems and Signal Processing</font>*, vol. 207, p. 110952, Jan. 2024, doi: [10.1016/j.ymssp.2023.110952](https://doi.org/10.1016/j.ymssp.2023.110952).  [[Code](https://github.com/ChenQian0618/TFN) \| [中文介绍](./publications/2024-MSSP-TFN-chinese.md)] <font color="red">(IF=8.4, TOP)</font>
 
 
 **Patent:**
