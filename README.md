@@ -34,7 +34,7 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 
 **Paper:**
 
-1. X. Dong\*, **Q. Chen**\*, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” <i>**Structural and Multidisciplinary Optimization**</i>, 2024. <font color="red">(Under review)</font>
+1. X. Dong<sup>\*</sup>, **Q. Chen**<sup>\*</sup>, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” <i>**Structural and Multidisciplinary Optimization**</i>, 2024. <font color="red">(Under review)</font>
 2. **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. <i>**机械工程学报**</i>, 2024. <br>
 **Q. Chen**, et al. Peeling force prediction of automobile seat slide rail based on iterative local weighted linear regression[J]. <i>**Journal of Mechanical Engineering**</i>, 2024. <font color="red">(Under review-R2)</font>
 1. **陈钱**, 等. 一种面向机械设备故障诊断的可解释卷积神经网络[J]. <i>**机械工程学报**</i>, 2023. [[中文介绍](./publications/2024-机工报-ChirpletNN-chinese.md)] <br> **Q. Chen**, et al. An interpretable convolutional neural network for mechanical equipment fault diagnosis[J]. <i>**Journal of Mechanical Engineering**</i>, 2023. <font color="red">(Under proof)</font>
