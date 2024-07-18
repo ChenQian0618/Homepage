@@ -21,7 +21,7 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 
 **Education background:**
 
-* <img src="./images/SJTU.png" width=50 alt="profile"  align='middle'/> 2020 - now, studying for Ph.D degree of mechanical Engineering at Shanghai Jiao Tong University, Shanghai, China.
+* <img src="./images/SJTU.png" width=50 alt="profile"  align='middle'/> 2020 - now, studying for Ph.D degree of Mechanical Engineering at Shanghai Jiao Tong University, Shanghai, China.
 
 * <img src="./images/HIT.png" width=50 alt="profile" align='middle'/> 2016 - 2020,  received Bachelor degree of Mechatronic Engineering at Harbin Institute of Technology, Harbin, China.
 
@@ -32,11 +32,10 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 
 ## Publication
 
-
 **Paper:**
 
-1. **Q. Chen**, et al., “Interpreting what typical fault signals look like via prototype-matching,” *<font color="brown">Advanced Engineering Informatics</font>*, 2024. <font color="red">(Under review-R2)</font> [[Arxiv](https://arxiv.org/abs/2403.07033)]
-1. X. Dong<sup>\*</sup>, **Q. Chen**<sup>\*</sup>, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” *<font color="brown">Science China Technological Sciences</font>*, 2024. <font color="red">(Under review-R2)</font>
+1. **Q. Chen**, et al., “Interpreting what typical fault signals look like via prototype-matching,” *<font color="brown">Advanced Engineering Informatics</font>*, 2024. <font color="red">(Under review)</font>
+1. X. Dong<sup>\*</sup>, **Q. Chen**<sup>\*</sup>, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” *<font color="brown">Science China Technological Sciences</font>*, 2024. <font color="red">(Under review)</font>
 2. **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. *<font color="brown">机械工程学报</font>*, 2024. <br>
 **Q. Chen**, et al. Peeling force prediction of automobile seat slide rail based on iterative local weighted linear regression[J]. *<font color="brown">Journal of Mechanical Engineering</font>*, 2024. <font color="red">(Under review-R2)</font>
 1. **陈钱**, 等. 一种面向机械设备故障诊断的可解释卷积神经网络[J]. *<font color="brown">机械工程学报</font>*, 2024. [[中文介绍](./publications/2024-机工报-ChirpletNN-chinese.md) \| [Link](https://kns.cnki.net/kcms2/article/abstract?v=8WLnD7pOpNH4k-I_sb5rEpb0uXSidGU9t9soJFO0JDp2rnGaqgnsRemnZ06exeCmBZmEzcrcC6FP5WGr9AWzjXbtxbDeqT5KzW3nfiCWnJr1h37ggsQTML0gaYimLiv0Cat2ZyrVbnE=)] <br> 
