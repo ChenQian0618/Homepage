@@ -51,5 +51,5 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 ## Project
 
 * 2021.09-2023.03: Development of a predictive system for studying the robustness of car seat slide rail shapes. [[detail](./projects/202109_SlidePeelingForcePrediction.md) \| [详情](./projects/202109_SlidePeelingForcePrediction_chinese.md) ]
-* 2021.08-2022.08: Exploring the interpretability of convolutional neural networks combined with time-frequency transform. [[detail](./projects/202108_TFN.md) \| [详情](./publications/2024-MSSP-TFN-chinese.md)]
+* 2021.08-2022.08: Exploring the interpretability of convolutional neural networks combined with time-frequency transform. [[detail](./publications/2024-MSSP-TFN.md) \| [详情](./publications/2024-MSSP-TFN-chinese.md)]
 * 2020.06-2021.06: Load identification methods for piping systems. [[detail](./projects/202006_PipeLoadIdentification.md)]
