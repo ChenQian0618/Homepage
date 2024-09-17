@@ -18,7 +18,7 @@
 
 <div align='center'>
 <img src="images/Slidertrack-SCTS-Fig-1.jpg" width=800 alt="FEM"/><br/>
-图1 滑块剥离强度预测的整体系统框架
+图1 滑轨剥离强度预测的整体系统框架
 </div>
 
 ## 滑轨有限元分析（FEA）
