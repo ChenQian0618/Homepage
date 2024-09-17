@@ -1,7 +1,7 @@
 # 面向滑轨剥离强度预测的系统性代理模型构建框架
 
-> X. Dong<sup>\*</sup>, **Q. Chen**<sup>\*</sup>, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” *<font color="brown">Science China Technological Sciences</font>*, 2024. <font color="red">(Accepted)</font> <br>
-> **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. *<font color="brown">机械工程学报</font>*, 2024.  <font color="red">(返修)</font> <br>
+> X. Dong\*, **Q. Chen**\*, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” *<font color="brown">Science China Technological Sciences</font>*, Sep. 2024, doi: [10.1007/s11431-024-2764-5](https://doi.org/10.1007/s11431-024-2764-5).  <br>
+> **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. *<font color="brown">机械工程学报</font>*, 2024. <font color="red">(复审)</font> <br>
 >X. Dong, **Q. Chen**, et al., "Data-driven-based automobile seat slide rail peel strength prediction method", [CN116822292A](https://patents.google.com/patent/CN116822292A/en?oq=CN116822292A), Sep. 29, 2023. 
 
 ##  摘要
