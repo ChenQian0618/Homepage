@@ -1,7 +1,7 @@
 # 面向滑轨剥离强度预测的系统性代理模型构建框架
 
 > X. Dong\*, **Q. Chen**\*, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” *<font color="brown">Science China Technological Sciences</font>*, Sep. 2024, doi: [10.1007/s11431-024-2764-5](https://doi.org/10.1007/s11431-024-2764-5).  <br>
-> **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. *<font color="brown">机械工程学报</font>*, 2024. <font color="red">(复审)</font> <br>
+> **陈钱**, 等. 基于迭代式局部加权线性回归的汽车座椅滑轨剥离强度预测[J]. *<font color="brown">机械工程学报</font>*, 2024. <font color="red">(In Press)</font> <br>
 >X. Dong, **Q. Chen**, et al., "Data-driven-based automobile seat slide rail peel strength prediction method", [CN116822292A](https://patents.google.com/patent/CN116822292A/en?oq=CN116822292A), Sep. 29, 2023. 
 
 ##  摘要
@@ -11,7 +11,7 @@
 
 ## 框架
 滑块剥离强度预测的整体系统框架如图1所示。该框架包含四个主要部分：敏感性分析 (sensitivity analysis, SA)、稀疏性目标采样(sparsity-targeted sampling, STS)、序列式局部加权线性回归(sequentially-selected locally weighted linear regression, SLWLR)和补充成本评估(supplementary cost assessment)。框架的工作流程如下：
-1.	敏感性分析：获取一个小批量数据集，并计算滑块轨道中每个变量的敏感性，为后续稀疏性目标采样和序列式局部加权线性回归算法提供加权距离度量基础。
+1.	敏感性分析：获取一个小批量数据集，并计算汽车滑轨中每个变量的敏感性，为后续稀疏性目标采样和序列式局部加权线性回归算法提供加权距离度量基础。
 2.	稀疏性目标采样：使用加权距离度量和当前训练样本，稀疏性目标采样算法迭代地探索变量空间中的稀疏区域并在这些区域内进行采样，逐步减少潜在的稀疏性，从而构建一个具有代表性的数据集。
 3.	序列式局部加权线性回归：使用加权距离度量、当前训练数据集和测试数据集，序列式局部加权线性回归算法考虑已选样本的排斥效应，并为每个待测样本顺序选择k个相邻样本。随后，序列式局部加权线性回归根据距离的远近为各相邻样本分配不同的权重，并对待测样本开展的剥离强度预测。
 4.	补充代价评估：利用最小相邻样本距离作为桥梁，建立剥离强度预测精度提升与所需补充样本数量之间的关系，实现补充成本与目标精度之间的定量评估。
@@ -49,7 +49,7 @@
 
 从结果可以看出，kNN 的表现最差， SVR 和 RBF 的表现则有所提高。MLP 和 Kriging 的表现优于前面三种方法，而所提出的 SLWLR 方法在准确性指标（即R2、MRE、MAE）方面超越了所有其他方法，并且与真实值（即有限元仿真结果）更加接近。
 
-此外，我们还进行了一系列消融实验，分别验证了敏感性分析 (SA)、稀疏性目标采样(STS)、序列式局部加权线性回归(SLWLR)各部分的有效性。具体结果请参考 *SCIENCE CHINA Technological Science* 原文。
+此外，我们还进行了一系列消融实验，分别验证了敏感性分析 (SA)、稀疏性目标采样(STS)、序列式局部加权线性回归(SLWLR)各部分的有效性。具体结果请参考 [*SCIENCE CHINA Technological Science*](https://link.springer.com/article/10.1007/s11431-024-2764-5) 原文。
 
 ## 总结
 总结而言，滑轨剥离强度预测是一个多因素、高耦合、复杂非线性的问题，并且数据获取成本限制了数据集丰富程度，因此同类方法难以取得所提SLWLR方法的优异预测表现，SLWLR在预测性能指标方法和少样本学习方面都优于同类方法。
