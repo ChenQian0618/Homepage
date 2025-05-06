@@ -34,9 +34,9 @@ Shanghai Jiao Tong University, Shanghai, China. My current research is focusing 
 
 **Paper:**
 1. **Q. Chen**, et al., “SHapley Estimated exPlanation (SHEP): A Fast Post-Hoc Attribution Method for Interpreting Intelligent Fault Diagnosis,” *<font color="brown">Arxiv</font>*, 2504.03773, doi: [10.48550/arXiv.2504.03773](
-https://doi.org/10.48550/arXiv.2504.03773).
+https://doi.org/10.48550/arXiv.2504.03773). [[code](https://github.com/ChenQian0618/SHEP)]
 1. **Q. Chen**, et al., “CS-SHAP: Extending SHAP to cyclic-spectral domain for better interpretability of intelligent fault diagnosis,” *<font color="brown">Arxiv</font>*, 2502.06424, doi: [10.48550/arXiv.2502.06424](
-https://doi.org/10.48550/arXiv.2502.06424).
+https://doi.org/10.48550/arXiv.2502.06424). [[code](https://github.com/ChenQian0618/CS-SHAP)]
 1. **Q. Chen**, et al., “Interpreting what typical fault signals look like via prototype-matching,” *<font color="brown">Advanced Engineering Informatics</font>*, vol. 62, p. 102849, Oct. 2024, doi: [10.1016/j.aei.2024.102849](https://doi.org/10.1016/j.aei.2024.102849). <font color="red">(IF=8.0, ccf-b, TOP)</font>
 2. **Q. Chen**, et al., “TFN: An interpretable neural network with time-frequency transform embedded for intelligent fault diagnosis,” *<font color="brown">Mechanical Systems and Signal Processing</font>*, vol. 207, p. 110952, Jan. 2024, doi: [10.1016/j.ymssp.2023.110952](https://doi.org/10.1016/j.ymssp.2023.110952).  [[Code](https://github.com/ChenQian0618/TFN) \| [中文介绍](./publications/2024-MSSP-TFN-chinese.md)] <font color="red">(IF=7.9, TOP)</font>
 3. X. Dong\*, **Q. Chen**\*, et al., “A systematic framework of constructing surrogate model for slider track peeling strength prediction,” *<font color="brown">Science China Technological Sciences</font>*, Sep. 2024, doi: [10.1007/s11431-024-2764-5](https://doi.org/10.1007/s11431-024-2764-5). [[Link](https://link.springer.com/article/10.1007/s11431-024-2764-5) \| [Introduction](./projects/202109_SlidePeelingForcePrediction.md) \| [中文介绍](./projects/202109_SlidePeelingForcePrediction_chinese.md)] <font color="red">(IF=4.4)</font>
